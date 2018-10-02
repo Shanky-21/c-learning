@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+int i,a,b;
+while(1)
+{  printf("press\n 1.For addition\n 2. For subtraction\n 3. For multipliction\n 4.For division\n 5. for exit);
+   scanf("%d",&i);                              //taking choice of user
+   printf("enter both numbers:");               
+   fflush(stdin);                               //it clears any garbage value in scanf i.e. standard input
+   scanf("%d%d",&a,&b);                        //taking two numbeers as 'a' and 'b'
+   switch(1)
+   {  
+      case 1:
+        {printf("addition=%d",a+b);
+        break;}
+      case 2:
+        {printf("subtraction=%d",a-b);
+        break;}
+      case 3:
+        {printf("multiplication=%d",a*b);
+        break;}
+      case 4:
+        {printf("multiplication=%d",a/b);
+        break;}
+      case 5:                                 //this will end entire program  
+        {exit(0);}
+   }
+}
+        
