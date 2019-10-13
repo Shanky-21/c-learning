@@ -1,6 +1,13 @@
+/*pointer method for bubble sort*/
 #include <stdio.h>
+
+/*initializing function bubble sort with two arguments one integer pointer type and one integer type*/
 void BubbleSort(int *,int );
+
+/* Initializing function for Displaying Content*/
 void Display(int *,int);
+
+/*main function*/
 int main(){
     int i,j,size;
     printf("Enter size of array:\n");
@@ -9,10 +16,11 @@ int main(){
     printf("Enter elements of array to be sorted");
     for(i = 0;i<size;i++)
         scanf("%d",&a[i]);
-    BubbleSort(a,size);
-    Display(a,size);
+    BubbleSort(a,size); /*calling bubble sort*/
+    Display(a,size); /*calling Display*/
     return(0);
 }
+/*Defination of BubbleSort function*/
 void BubbleSort(int *p,int size){
     int temp,i,j;
     for(i = 0; i < size; i++){
@@ -25,6 +33,7 @@ void BubbleSort(int *p,int size){
         }
     }
 }
+/*Defination of Display function*/
 void Display(int *p,int size){
     int i;
     for(i = 0; i<size; i++){
