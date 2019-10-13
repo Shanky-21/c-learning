@@ -16,8 +16,8 @@ int main(){
     printf("Enter elements of array to be sorted");
     for(i = 0;i<size;i++)
         scanf("%d",&a[i]);
-    BubbleSort(a,size); /*calling bubble sort*/
-    Display(a,size); /*calling Display*/
+    BubbleSort(a,size);                                          /*calling bubble sort*/
+    Display(a,size);                                             /*calling Display*/
     return(0);
 }
 /*Defination of BubbleSort function*/
