@@ -1,7 +1,0 @@
-An array is a collections of items of similar data type.
-its just like any other variable.but, it stores several items of same data type.
-for e.g. 
-const int A[]={12,13,14,15};		// its an const array of size 4 of type integer
-const array means that its value can't be changed.
-array are very helpful to store data in a single variable and we can easily traverse any of them by their indexings.
-like other languages, indexing in array also starts from 0. Means index of last elements is (size-1).
