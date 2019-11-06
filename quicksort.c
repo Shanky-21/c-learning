@@ -1,10 +1,7 @@
 /*Quick_sort */
+/*quicksort taking last element as pivot*/
 #include <stdio.h>
-/*void swap(int *a, int *b){
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}*/
+
 int partition(int arr[],int left,int right){
     int pivot,i,j,temp;
     pivot = arr[right];
